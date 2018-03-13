@@ -1,0 +1,31 @@
+@mixin link-text-line($color) {
+  position: relative;
+  color: $color;
+  &:hover {
+    color: $color;
+    text-decoration: none;
+    &:after {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+      -webkit-transform-origin: left center;
+      -ms-transform-origin: left center;
+      transform-origin: left center;
+    }
+  }
+  &:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: $color;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    -webkit-transform: scale3d(0, 1, 1);
+    transform: scale3d(0, 1, 1);
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.15s;
+    transition: transform 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.15s, -webkit-transform 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.15s;
+    -webkit-transform-origin: right center;
+    -ms-transform-origin: right center;
+    transform-origin: right center;
+  }
+}

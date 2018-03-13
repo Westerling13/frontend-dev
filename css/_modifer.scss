@@ -1,0 +1,14 @@
+$base-body-font-family: $font-family-first;
+$base-body-font-size: $font-size;
+$base-body-font-weight: $font-weight-thin;
+$base-body-color: $primary-color-first;
+$base-body-background: $default-color-first;
+
+$base-heading-color: $inherit;
+$base-heading-font-family: $font-family-first;
+$base-heading-font-weight: $font-weight-bold;
+
+$section-secondary-color-mode: dark;
+@mixin  hook-section-secondary() {
+  color: $default-color-second;
+}

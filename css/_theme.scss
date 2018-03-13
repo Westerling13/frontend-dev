@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=cyrillic,cyrillic-ext');
+
+$inherit: inherit;
+
+$primary-color-first: #333;
+$primary-color-second: $inherit;
+$primary-color-third: $inherit;
+
+$secondary-color-first: #fc3a3e;
+$secondary-color-second: $inherit;
+$secondary-color-third: $inherit;
+
+$default-color-first: transparent;
+$default-color-second: #fff;
+
+$font-family-first: 'Open Sans', sans-serif;
+$font-family-second: $inherit;
+$font-family-third: $inherit;
+
+$font-weight-thin: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 600;
+
+$font-size: 16px;
+
+$gutter: 40px;
+$gutter-small: 20px;

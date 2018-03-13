@@ -1,0 +1,5 @@
+.uk-list {
+  > * > a {
+    @include link-text-line($secondary-color-first);
+  }
+}

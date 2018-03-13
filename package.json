@@ -1,0 +1,11 @@
+{
+  "name": "Theme",
+  "version": "3.0.0",
+  "main": "gulpfile.js",
+  "author": "CreativeCult",
+  "dependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp-sass": "^3.1.0",
+    "gulp": "^3.9.1"
+  }
+}
