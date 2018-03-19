@@ -4,7 +4,9 @@
     <title>Тестовое задание</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|PT+Sans+Narrow:400,700|Ubuntu&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
 <div class="brif">
@@ -22,6 +24,316 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="site-container">
+
+<header class="main-header">
+  <div class="header-top-bar">
+    <a class="main-logo" href="#">
+      <img src="img/main-logo.svg" width="92" height="113" alt="Main logo">
+    </a>
+    <div class="top-bar-right">
+      <ul class="social-list">
+        <li>
+          <a class="social-link fb-link" href="#">
+            <img src="img/fb-icon.svg" width="25" height="24" alt="Фейсбук">
+          </a>
+        </li>
+        <li>
+          <a class="social-link vk-link" href="#">
+            <img src="img/vk-icon.svg" width="25" height="24" alt="Вконтакте">
+          </a>
+        </li>
+        <li>
+          <a class="social-link ok-link" href="#">
+            <img src="img/ok-icon.svg" width="25" height="24" alt="Одноклассники">
+          </a>
+        </li>
+        <li>
+          <a class="social-link inst-link" href="#">
+            <img src="img/inst-icon.svg" width="25" height="24" alt="Инстаграм">
+          </a>
+        </li>
+      </ul>
+      <div class="main-info">
+        <p class="info-adress">
+          г. Краснодар, ул. Красная, 99.
+        </p>
+        <p class="info-number">8 <span class="yellow-text">800</span> 456 78 91</p>
+      </div>
+      <a class="call-request" href="#">
+        Заказать звонок
+        <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Path</title><desc>Created using Figma</desc><use xlink:href="#a" fill="#FFF"/><defs><path id="a" fill-rule="evenodd" d="M4.006 22c3.75-.118 8.156-3.753 11.193-6.78 3.036-3.028 6.68-7.424 6.8-11.177v-.03c0-1.316-3.196-3.628-3.228-3.65A1.906 1.906 0 0 0 17.682 0c-.48 0-.896.21-1.12.53-.24.336-2.688 4.01-2.964 4.46-.12.198-.18.436-.18.697 0 .336.098.707.29 1.07.186.355.798 1.425 1.1 1.95-.328.46-1.16 1.547-2.875 3.254-1.703 1.7-2.8 2.54-3.264 2.865l-.07-.04a104.22 104.22 0 0 0-1.885-1.053c-.37-.195-.742-.294-1.075-.294-.265 0-.506.062-.706.19-.423.266-4.08 2.7-4.43 2.95-.326.238-.504.66-.504 1.12 0 .364.11.75.344 1.084C.366 18.814 2.64 22 3.98 22h.026zM17.683.88c.192 0 .394.072.582.203 1.27.907 2.825 2.415 2.855 2.93-.11 3.465-3.62 7.667-6.544 10.582-4.135 4.122-7.9 6.44-10.6 6.524-.472-.017-1.862-1.373-2.912-2.84a1.03 1.03 0 0 1-.185-.582c0-.21.07-.357.14-.406.298-.215 3.944-2.645 4.385-2.922a.443.443 0 0 1 .233-.053c.193 0 .43.07.668.194.345.182 1.453.81 1.926 1.08l.483.275.457-.32c.517-.36 1.645-1.228 3.38-2.96 1.733-1.724 2.606-2.85 2.973-3.37l.324-.46-.28-.486a101.89 101.89 0 0 1-1.084-1.922 1.49 1.49 0 0 1-.187-.66c0-.1.016-.186.048-.237.252-.41 2.68-4.058 2.933-4.414.053-.075.2-.155.403-.155z"/></defs></svg>
+      </a>
+    </div>
+  </div>
+  <div class="header-bottom-bar">
+    <div class="header-title-container">
+      <h2 class="header-title"><span class="yellow-text">Д</span>етейлинг</h2>
+      <b class="header-title-caption">Искусство создания автомобильных шедевров</b>
+    </div>
+    <nav class="main-navigation">
+      <ul class="main-navigation-list">
+        <li>
+          <a class="main-navigation-link" href="#">Услуги</a>
+        </li>
+        <li>
+          <a class="main-navigation-link" href="#">Цены</a>
+        </li>
+        <li>
+          <a class="main-navigation-link" href="#">Портфолио</a>
+        </li>
+        <li>
+          <a class="main-navigation-link" href="#">Акции</a>
+        </li>
+        <li>
+          <a class="main-navigation-link" href="#">Новости</a>
+        </li>
+        <li>
+          <a class="main-navigation-link" href="#">Партнеры</a>
+        </li>
+        <li>
+          <a class="main-navigation-link" href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="services">
+    <h2 class="visually-hidden">Список услуг</h2>
+    <ul class="services-list">
+      <li class="services-item">
+        <a class="services-link" href="#">Полировка кузова</a>
+      </li>
+      <li class="services-item">
+        <a class="services-link yellow-text" href="#">Химчистка салона</a>
+      </li>
+      <li class="services-item">
+        <a class="services-link" href="#">Удаление царапин и сколов</a>
+      </li>
+      <li class="services-item">
+        <a class="services-link" href="#">Детейлинг экстерьера</a>
+      </li>
+      <li class="services-item">
+        <a class="services-link yellow-text" href="#">Полировка фар</a>
+      </li>
+      <li class="services-item">
+        <a class="services-link" href="#">Воск</a>
+      </li>
+      <li class="services-item">
+        <a class="services-link" href="#">Жидкое стекло</a>
+      </li>
+      <li class="services-item">
+        <a class="services-link yellow-text" href="#">Защитные пленки</a>
+      </li>
+      <li class="services-item">
+        <a class="services-link" href="#">Антидождь</a>
+      </li>
+      <li class="services-item">
+        <a class="services-link yellow-text" href="#">Ceramic pro 9h</a>
+      </li>
+      <li class="services-item">
+        <a class="services-link" href="#">Modesta</a>
+      </li>
+      <li class="services-item">
+        <a class="services-link" href="#">и прочее</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="slider">
+    <h2 class="visually-hidden">Слайдер</h2>
+    <p class="slider-text">
+      Покрытие кузова авто несколькими слоями жидкой керамики <br>
+      обеспечивает великолепный вид и надежно защищает авто в течение <br>
+      нескольких лет
+    </p>
+    <p class="slider-image">
+      <img src="img/slider-car.png" width="891" height="246.74" alt="Slider Car">
+    </p>
+    <section class="options">
+      <h3 class="visually-hidden">Опции</h3>
+      <p class="main-option beauty-option">
+        <span class="main-option-name">Красота авто</span><span class="main-option-value yellow-text">53%</span>
+      </p>
+      <p class="main-option protection-option">
+        <span class="main-option-name">Защита авто</span><span class="main-option-value  yellow-text">75%</span>
+      </p>
+      <ul class="options-list">
+        <li class="option option-01">
+          <span class="option-name">Блеск авто</span><span class="option-value">90%</span>
+          <div class="option-indicator"></div>
+        </li>
+        <li class="option option-02">
+          <span class="option-name">Цвет кузова</span><span class="option-value">65%</span>
+          <div class="option-indicator"></div>
+        </li>
+        <li class="option option-03">
+          <span class="option-name">Ультрафиолет</span><span class="option-value">90%</span>
+          <div class="option-indicator"></div>
+        </li>
+        <li class="option option-04">
+          <span class="option-name">Царапины</span><span class="option-value">90%</span>
+          <div class="option-indicator"></div>
+        </li>
+        <li class="option option-05">
+          <span class="option-name">“Леденец”</span><span class="option-value">50%</span>
+          <div class="option-indicator"></div>
+        </li>
+        <li class="option option-06">
+           <span class="option-name"></span><span class="option-value">10%</span>
+           <div class="option-indicator"></div>
+        </li>
+        <li class="option option-07">
+          <span class="option-name">Химия</span><span class="option-value">50%</span>
+          <div class="option-indicator"></div>
+        </li>
+        <li class="option option-08">
+          <span class="option-name">“Антискол”</span><span class="option-value">50%</span>
+          <div class="option-indicator"></div>
+        </li>
+      </ul>
+      <div class="options-buttons">
+        <button class="option-button current-button">
+          <span class="button-text">1 слой lite</span>
+        </button>
+        <button class="option-button">
+          <span class="button-text">2 слоя</span>
+        </button>
+        <button class="option-button">
+          <span class="button-text">4 слоя</span>
+        </button>
+      </div>
+    </section>
+  </section>
+
+  <h1 class="main-title">Профессиональный детейлинг авто</h1>
+
+  <section class="about">
+    <h2 class="visually-hidden">О студии</h2>
+    <div class="about-paragraph-wrapper">
+      <p class="about-paragraph">
+        Это страница детейлинг студии,
+        компании занимающейся деталь-
+        ным уходом за автомобилем.
+        Восстановительная или коррек-
+        тирующая полировка, нанесение
+        защитных составов от Willson до
+        Ceramic Pro 9H.
+      </p>
+      <p class="about-paragraph">
+        Все наши составы, которых на
+        данный момент около 200,
+        подбираются по двум важным
+        критериям: Первый —  маркетинг
+        компаний производителей нам не
+        указ – мы верим только своим
+        собственным тестам.
+      </p>
+    </div>
+    <div class="about-paragraph-wrapper">
+      <p class="about-paragraph">
+        Глубокая немецкая химчистка и
+        защита всех поверхностей
+        интерьера — это лишь часть работ,
+        которыми мы занимаемся. Но не
+        это главное. Главное принципы, на
+        которых стоит компания и каждая
+        наша работа.
+      </p>
+      <p class="about-paragraph">
+        Второй – в студии мы используем
+        биоразлагаемые составы, которые
+        безвредны для человека,
+        животных и окружающей среды.
+        Этот пункт всегда превалирует в
+        выборе перед низкой ценой
+        химически вредного.
+      </p>
+    </div>
+    <div class="about-paragraph-wrapper">
+      <p class="about-paragraph">
+        Наш главный ориентир — только
+        самый высокий результат, который
+        не оставит владельца
+        равнодушным к проделанной
+        работе. Мы строим своё дело с
+        душой и верим, что Вы это
+        ощутите, забирая автомобиль.
+      </p>
+      <p class="about-paragraph">
+        Мы каждый день поднимаем
+        культуру ухода за автомобилем на
+        другой уровень. Уровень, которого
+        никогда не было. Это амбициозно,
+        но мы искренне верим в себя и
+        делаем это. Все разделы нашего
+        сайта открыты.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="main-footer">
+  <div class="footer-top-bar">
+    <p class="copyright-info">
+      © 2014-2018 Детейлинг центр “Solo Club”<br><br>
+
+      Все права на логотипы и товарные знаки принадлежат их владельцам. All rights to the trademarks and logos belong to their respective owners. ® Товарный знак зарегистрирован.<br>
+      Все права защищены.
+    </p>
+    <p class="developer-info">
+      <span class="developer-info-text">Разработка сайта</span>
+      <a href="https://creativecult.ru"><img src="img/creative-cult.svg" width="144" height="16" alt="Creative Cult"></a>
+    </p>
+  </div>
+  <div class="footer-bottom-bar">
+    <a class="main-logo" href="#">
+      <img src="img/main-logo.svg" width="94" height="117" alt="Main logo">
+    </a>
+    <div class="bottom-bar-right">
+      <ul class="social-list">
+        <li>
+          <a class="social-link fb-link" href="#">
+            <img src="img/fb-icon.svg" width="25" height="24" alt="Facebook">
+          </a>
+        </li>
+        <li>
+          <a class="social-link vk-link" href="#">
+            <img src="img/vk-icon.svg" width="25" height="24" alt="Facebook">
+          </a>
+        </li>
+        <li>
+          <a class="social-link ok-link" href="#">
+            <img src="img/ok-icon.svg" width="25" height="24" alt="Facebook">
+          </a>
+        </li>
+        <li>
+          <a class="social-link inst-link" href="#">
+            <img src="img/inst-icon.svg" width="25" height="24" alt="Facebook">
+          </a>
+        </li>
+      </ul>
+      <div class="main-info">
+        <p class="info-adress">
+          г. Краснодар, ул. Красная, 99.
+        </p>
+        <p class="info-number">
+          8 <span class="yellow-text">800</span> 456 78 91
+        </p>
+      </div>
+      <a class="call-request" href="#">
+        Заказать звонок
+        <svg width="18" height="18" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Path</title><desc>Created using Figma</desc><use xlink:href="#a" fill="#FFF"/><defs><path id="a" fill-rule="evenodd" d="M4.006 22c3.75-.118 8.156-3.753 11.193-6.78 3.036-3.028 6.68-7.424 6.8-11.177v-.03c0-1.316-3.196-3.628-3.228-3.65A1.906 1.906 0 0 0 17.682 0c-.48 0-.896.21-1.12.53-.24.336-2.688 4.01-2.964 4.46-.12.198-.18.436-.18.697 0 .336.098.707.29 1.07.186.355.798 1.425 1.1 1.95-.328.46-1.16 1.547-2.875 3.254-1.703 1.7-2.8 2.54-3.264 2.865l-.07-.04a104.22 104.22 0 0 0-1.885-1.053c-.37-.195-.742-.294-1.075-.294-.265 0-.506.062-.706.19-.423.266-4.08 2.7-4.43 2.95-.326.238-.504.66-.504 1.12 0 .364.11.75.344 1.084C.366 18.814 2.64 22 3.98 22h.026zM17.683.88c.192 0 .394.072.582.203 1.27.907 2.825 2.415 2.855 2.93-.11 3.465-3.62 7.667-6.544 10.582-4.135 4.122-7.9 6.44-10.6 6.524-.472-.017-1.862-1.373-2.912-2.84a1.03 1.03 0 0 1-.185-.582c0-.21.07-.357.14-.406.298-.215 3.944-2.645 4.385-2.922a.443.443 0 0 1 .233-.053c.193 0 .43.07.668.194.345.182 1.453.81 1.926 1.08l.483.275.457-.32c.517-.36 1.645-1.228 3.38-2.96 1.733-1.724 2.606-2.85 2.973-3.37l.324-.46-.28-.486a101.89 101.89 0 0 1-1.084-1.922 1.49 1.49 0 0 1-.187-.66c0-.1.016-.186.048-.237.252-.41 2.68-4.058 2.933-4.414.053-.075.2-.155.403-.155z"/></defs></svg>
+      </a>
+    </div>
+  </div>
+</footer>
 </div>
 <script src="js/uikit.js"></script>
 <script src="js/uikit-icons.js"></script>

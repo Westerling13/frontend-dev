@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=cyrillic,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Sans+Narrow:400,700|Ubuntu');
 
 $inherit: inherit;
 
@@ -13,9 +13,9 @@ $secondary-color-third: $inherit;
 $default-color-first: transparent;
 $default-color-second: #fff;
 
-$font-family-first: 'Open Sans', sans-serif;
-$font-family-second: $inherit;
-$font-family-third: $inherit;
+$font-family-first: 'PT Sans Narrow', sans-serif;
+$font-family-second: 'Oswald', sans-serif;
+$font-family-third: 'Ubuntu', sans-serif;
 
 $font-weight-thin: 300;
 $font-weight-regular: 400;

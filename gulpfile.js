@@ -20,15 +20,19 @@ gulp.task('copy', function () {
 
 gulp.task('browserSync', function () {
     browserSync.init({
-        browser: "google chrome",
-        open: 'external',
-        proxy: 'frontend.storagecult.ru'
+        browser: ["opera", "firefox"],
+        server: {
+          baseDir: './'
+        },
+        notify: false
     });
+
 });
 
 gulp.task('watch', ['browserSync', 'appCSS', 'copy'], function () {
-    gulp.watch('css/*.scss', ['appCSS']);
+    // gulp.watch('css/*.scss', ['appCSS']);
     gulp.watch('js/*.js', browserSync.reload);
     gulp.watch('img/*.*', browserSync.reload);
     gulp.watch('*.html', browserSync.reload);
+    gulp.watch('css/style.css', browserSync.reload);
 });
